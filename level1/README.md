@@ -6,9 +6,11 @@
 
 ## How to run
 - open pycharm in the level 1 directory
-- run > python main.py
+- run the line below in your terminal ( the $ means to run it in your terminal)
+> $ python main.py
 
 # Or
 - open pycharm in csv_transformer directory
-- run > python level1/main.py
+- run the line below
+> $ python level1/main.py
 
