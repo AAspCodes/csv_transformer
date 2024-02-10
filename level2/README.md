@@ -1,16 +1,10 @@
-# Level 1
+# Level 2
 
-- Intended as a simple example of how you could structure your csv transformmer
-- I may add a level 2, for a much more capable and configurable csv transformer, but can't promise the interest will last that long.
-
+- A much more complex but powerfull tool for csv transformation
+- transformation configs are defined in transform_configs dir in yaml
+- input, output, config, file paths are passed as arguements
 
 ## How to run
-- open pycharm in the level 1 directory
-- run the line below in your terminal ( the $ means to run it in your terminal)
-> $ python main.py
-
-# Or
-- open pycharm in csv_transformer directory
-- run the line below
-> $ python level1/main.py
+from the level2 directory run the following
+> $ python main.py -i data/in_data.csv -o data/out_data.csv -c transform_configs/example_config.yaml
 
