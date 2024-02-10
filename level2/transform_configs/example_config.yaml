@@ -1,4 +1,9 @@
 name: "example config"
+out-headers:
+  - "name"
+  - "can_drink"
+  - "date"
+  - "age"
 transformations:
   - name: "fancify the name"
     out-index: 0

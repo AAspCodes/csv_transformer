@@ -1,8 +1,8 @@
 import argparse
+from argparse import Namespace
 import os
 
-
-def get_args():
+def get_args() -> Namespace:
 # Create the parser
     parser = argparse.ArgumentParser(description='CSV CLI tool built in python for my dad.')
     
@@ -30,6 +30,7 @@ def get_args():
     print(f"\tinput: {args.input}")
     print(f"\toutput: {args.output}")
     print(f"\ttransform config: {args.config}")
+    return args
 
 
 
